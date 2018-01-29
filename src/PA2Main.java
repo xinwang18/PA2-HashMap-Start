@@ -18,6 +18,7 @@ public class PA2Main {
             for (String key : airportsSorted) {
                 if (flights.get(key) > check) {
                     check = flights.get(key);
+
                     max = key;
                 }
             }
